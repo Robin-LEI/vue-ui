@@ -21,6 +21,6 @@
 
 正确如下：没错！不要中间的空格！
 ```js
-<<<@/docs/.vuepress/components/btn.vue
+<<<@/docs/.vuepress/components/ed-button.vue
 ```
 

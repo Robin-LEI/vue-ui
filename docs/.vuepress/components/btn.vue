@@ -1,19 +1,22 @@
 <template>
-  <div>
-    <button @click="onClick">hello 222</button>
+  <div class="">
+    <ed-button>主要按钮</ed-button>
   </div>
 </template>
 
 <script>
 export default {
-  methods: {
-    onClick() {
-      window.alert(1)
-    },
+  data() {
+    return {
+    }
   },
+  created() {
+  },
+  methods: {
+  }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>
