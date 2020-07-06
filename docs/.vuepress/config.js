@@ -34,6 +34,12 @@ module.exports = {
                     ['/doc/message-box.md', '弹框MessageBox'],
                     ['/doc/message.md', '消息提示Message']
                 ]
+            },
+            {
+                title: "图表组件",
+                children: [
+                    ['/doc/pie-echarts.md', "饼图"]
+                ]
             }
         ]
     }
