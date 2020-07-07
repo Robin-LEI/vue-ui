@@ -18,14 +18,6 @@ export default {
       colorData: ['#8EB4FF', '#4E89FE', '#C6DAFF', '#85CDFF', '#0058FF'],
       dataLegend: ['< 3 Months', '3-5 Months', '6-8 Months', '9-11 Months', '≥ 12 Months']
     }
-  },
-  created() {
-  },
-  methods: {
   }
 }
 </script>
-
-<style scoped lang="scss">
-
-</style>
