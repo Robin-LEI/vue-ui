@@ -60,7 +60,8 @@ module.exports = {
                   ['/doc/bar-echarts.md', "条形图"],
                   ['/doc/map-echarts.md', "地图"],
                   ['/doc/curve-echarts.md', "曲线图"],
-                  ['/doc/sign-echarts.md', "正负条形图"]
+                  ['/doc/sign-echarts.md', "正负条形图"],
+                  ['/doc/schema-echarts.md', "关系图"]
               ]
           },
           {

@@ -14,6 +14,9 @@
     <div class="grid-content">
       <ed-curve :chart_data="chart_data_sale" />
     </div>
+    <div class="grid-content">
+      <ed-schema :chart_data="chart_data_member_tags_shared" />
+    </div>
   </div>
 </template>
 
