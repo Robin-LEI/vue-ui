@@ -1,7 +1,8 @@
 import Vue from 'vue'
+import App from './App.vue'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import App from './App.vue'
+import "./styles/index.scss";
 
 import EdButton from "@/components/ed-button/index.js";
 import EdPie from "@/components/ed-pie/index.js";
@@ -10,6 +11,8 @@ import EdSign from "@/components/ed-sign/index.js";
 import EdCurve from "@/components/ed-curve/index.js";
 import EdSchema from "@/components/ed-schema/index.js";
 import EdClamp from "@/components/ed-clamp/index.js";
+import EdListTable from "@/components/ed-table/index.js";
+import EdPagination from "@/components/ed-pagination/index.js";
 
 Vue.config.productionTip = false
 
@@ -20,6 +23,8 @@ Vue.use(EdSign);
 Vue.use(EdCurve);
 Vue.use(EdClamp);
 Vue.use(EdSchema);
+Vue.use(EdListTable);
+Vue.use(EdPagination);
 
 Vue.use(ElementUI);
 

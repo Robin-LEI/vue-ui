@@ -5,6 +5,13 @@ function resolve(dir) {
 }
 
 module.exports = {
+  // css: {
+  //   loaderOptions: {
+  //     sass: {
+  //       prependData: `@import "@/styles/index.scss";`,
+  //     },
+  //   }
+  // },
   chainWebpack: (config) => {
     config.resolve.alias
     .set('@',resolve('./src'))

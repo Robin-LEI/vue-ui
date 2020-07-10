@@ -1,20 +1,20 @@
 module.exports = {
   base: '/', //站点的基础路径
   title: 'VUE UI', //网站的标题
-  description: 'Vuepress vue ui', //描述
+  description: 'UI component library documentation', //描述
   // host: "172.16.210.199",
   port: "9546",
   head: [
-      ['link', {rel: 'shortcut icon', type: 'image/x-icon', href: `./favicon.ico`}]
+    ['link', {rel: 'shortcut icon', type: 'image/x-icon', href: `./favicon.ico`}]
   ],
   markdown: {
       lineNumbers: true // 代码块显示行号
   },
   themeConfig: {
       // 你的GitHub仓库，请正确填写
-      repo: 'https://github.com/Robin-LEI',
+      repo: 'https://www.fidescloud.com',
       // 自定义仓库链接文字。
-      repoLabel: 'My GitHub',
+      repoLabel: 'Fides Cloud',
       nav: [
           { text: '主页', link: '/' },
           { text: '开始', link: '/doc/quick-start.md' }
@@ -27,6 +27,13 @@ module.exports = {
                   ['/doc/button.md', '按钮Button'],
                   ['/doc/clamp.md', "数据截取Clamp"]
               ]
+          },
+          {
+            title: "导航组件",
+            children: [
+                ['/doc/tabs.md', 'Tabs标签页'],
+                ['/doc/dropdown.md', 'Dropdown下拉菜单']
+            ]
           },
           {
               title: '弹窗组件',
@@ -46,11 +53,12 @@ module.exports = {
           {
               title: "表单",
               children: [
-                  ['/doc/radio.md', "单选框Radio"],
-                  ['/doc/checkbox.md', "多选框Checkbox"],
-                  ['/doc/input.md', '输入框Input'],
-                  ['/doc/select.md', "下拉选择Select"],
-                  ['/doc/switch.md', "开关Switch"]
+                  ['/doc/radio.md', "Radio单选框"],
+                  ['/doc/checkbox.md', "Checkbox多选框"],
+                  ['/doc/input.md', 'Input输入框'],
+                  ['/doc/select.md', "Select选择器"],
+                  ['/doc/switch.md', "Switch开关"],
+                  ['/doc/form.md', 'Form表单']
               ]
           },
           {
@@ -63,6 +71,12 @@ module.exports = {
                   ['/doc/sign-echarts.md', "正负条形图"],
                   ['/doc/schema-echarts.md', "关系图"]
               ]
+          },
+          {
+            title: "其它相关",
+            children: [
+                ['/doc/carousel.md', "Carousel走马灯"]
+            ]
           },
           {
               title: "案例展示",

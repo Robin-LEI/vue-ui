@@ -1,3 +1,18 @@
-# 路径别名
+---
+home: true 
+heroImage: /logo.jpg
+actionText: Get Started →
+actionLink: /about/
+features:
+- title: Simplicity First
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: Vue-Powered
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Performant
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: MIT Licensed | Copyright © 2018-2020 momo
+---
 
->由于代码段的导入是在webpack编译之前执行的，所以无法使用webpack中的路径别名，此处的@默认值是process.cwd()
+[[toc]]
+
+:tada: :100:

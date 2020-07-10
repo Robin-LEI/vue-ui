@@ -17,12 +17,21 @@
     <div class="grid-content">
       <ed-schema :chart_data="chart_data_member_tags_shared" />
     </div>
+    <div>
+      <page-demo1></page-demo1>
+    </div>
+
+    
   </div>
 </template>
 
 <script>
+import PageDemo1 from "../examples/page_demo1"
 export default {
   name: 'HelloWorld',
+  components: {
+    PageDemo1
+  },
   props: {
     msg: String
   },
