@@ -2,7 +2,7 @@
 home: true 
 heroImage: /logo.jpg
 actionText: Get Started →
-actionLink: /about/
+actionLink: /doc/quick-start.html
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.
