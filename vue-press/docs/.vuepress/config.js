@@ -21,7 +21,8 @@ module.exports = {
       ],
       sidebar: [
           ['/doc/quick-start.md', '快速上手'],
-          ['/doc/ui-standard.md', '规范标准'],
+          ['/doc/ui-standard.md', 'UI规范'],
+          ['/doc/controls-standard.md', '控件规范'],
           {
               title: '基础组件',
               children: [
