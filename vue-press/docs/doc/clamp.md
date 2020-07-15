@@ -15,7 +15,7 @@
 
 <<<@/docs/.vuepress/components/clamp2.vue
 
-# 属性Attributes
+# 属性 Attributes
 |参数|说明|类型|可选值|默认值|
 |-|-|-|-|-|
 |max-lines|控制最大显示行数|number|-|1

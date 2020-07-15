@@ -21,7 +21,22 @@
       <page-demo1></page-demo1>
     </div>
 
-    
+    <div>
+      <ed-header-title title="这是一个标题" />
+
+      <ed-header-title title="这是一个标题">
+        <div slot="rightContent" class="click-button">
+          <ed-button :nobg="true">取消按钮</ed-button>
+          <ed-button>主要按钮</ed-button>
+        </div>
+      </ed-header-title>
+    </div>
+
+    <div class="tooltip">
+      <ed-popover content="Top Left 提示文字">
+        <i class="el-icon-delete"></i>
+      </ed-popover>
+    </div>
   </div>
 </template>
 
@@ -84,5 +99,9 @@ a {
 }
 .clampbox {
   width: 300px;
+}
+
+.tooltip {
+  height: 100px;
 }
 </style>

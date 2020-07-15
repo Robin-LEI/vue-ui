@@ -10,7 +10,7 @@
     :circle="circle"
     :size="size"
     :loading="loading"
-    :class="['ed-button',{'no-bg': nobg}]"
+    :class="['ed-button',{'no-bg': nobg}, {'is-login': islogin}]"
     >
     <slot></slot>
   </el-button>
@@ -35,7 +35,8 @@
       autofocus: Boolean,
       round: Boolean,
       circle: Boolean,
-      nobg: Boolean
+      nobg: Boolean,
+      islogin: Boolean
     },
 
     methods: {
@@ -96,6 +97,13 @@ $primary: #2777FF;
         background: none !important;
         color: $primary !important;
       }
+    }
+    &.is-login {
+      width:360px;
+      height:50px;
+      background:rgba(39,119,255,1);
+      box-shadow:0px 5px 10px -3px rgba(12,47,105,1);
+      border-radius:10px;
     }
     //小号button
     &.el-button--small {

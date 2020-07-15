@@ -21,11 +21,14 @@ module.exports = {
       ],
       sidebar: [
           ['/doc/quick-start.md', '快速上手'],
+          ['/doc/ui-standard.md', '规范标准'],
           {
               title: '基础组件',
               children: [
                   ['/doc/button.md', '按钮Button'],
-                  ['/doc/clamp.md', "数据截取Clamp"]
+                  ['/doc/clamp.md', "数据截取Clamp"],
+                  ['/doc/ed-header-title.md', "模块标题EdHeaderTitle"],
+                  ['/doc/ed-popover.md', "文字提示EdPopover"]
               ]
           },
           {
