@@ -79,7 +79,8 @@ module.exports = {
           {
             title: "其它相关",
             children: [
-                ['/doc/carousel.md', "Carousel走马灯"]
+                ['/doc/carousel.md', "Carousel走马灯"],
+                ['/doc/scrollbar.md', "滚动条EdScrollbar"]
             ]
           },
           {
