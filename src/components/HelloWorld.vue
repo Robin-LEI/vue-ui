@@ -25,6 +25,12 @@
     <br>
     <ed-input v-model="input" placeholder="hello"></ed-input>
 
+    <ed-pagination
+      :page="1"
+      :page_sizes='[10,20,30,40,50]'
+      :total='100'
+  ></ed-pagination>
+
     <!-- <ed-button>hello</ed-button>
     <ed-pie :dataSeries="dataSeries" :dataLegend="dataLegend" :colorData="colorData"></ed-pie>
     <div class="clampbox">
