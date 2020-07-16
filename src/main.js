@@ -15,6 +15,7 @@ import EdListTable from "@/components/ed-table/index.js";
 import EdPagination from "@/components/ed-pagination/index.js";
 import EdHeaderTitle from "@/components/ed-header-title/index.js";
 import EdPopover from "@/components/ed-popover/index.js";
+import EdSelect from "@/components/ed-select/index.js";
 
 Vue.config.productionTip = false
 
@@ -29,6 +30,7 @@ Vue.use(EdListTable);
 Vue.use(EdPagination);
 Vue.use(EdHeaderTitle);
 Vue.use(EdPopover);
+Vue.use(EdSelect);
 
 Vue.use(ElementUI);
 

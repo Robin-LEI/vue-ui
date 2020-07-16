@@ -13,6 +13,7 @@ import PageDemo1 from "../../../src/examples/page_demo1.vue"
 import EdPagination from "../../../src/components/ed-pagination/index.js"
 import EdHeaderTitle from "../../../src/components/ed-header-title/index.js"
 import EdPopover from "../../../src/components/ed-popover/index.js"
+import EdSelect from "../../../src/components/ed-select/index.js"
 
 Vue.component(EdButton.name, EdButton)
 Vue.component(EdPie.name, EdPie)
@@ -28,6 +29,7 @@ Vue.use(EdListTable)
 Vue.use(EdPagination)
 Vue.use(EdHeaderTitle)
 Vue.use(EdPopover)
+Vue.use(EdSelect)
 export default ({
     Vue
 }) => {

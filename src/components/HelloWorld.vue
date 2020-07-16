@@ -1,6 +1,22 @@
 <template>
   <div>
-    <ed-button>hello</ed-button>
+    <button @click="onClick($event)">
+      <span>click me</span>
+    </button>
+    <base-input v-on:focus.native="onFocus"></base-input>
+
+    <div class="test-select">
+      <ed-select v-model="value" clearable placeholder="请选择" @change="changeValue">
+        <el-option
+          v-for="item in options"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value">
+        </el-option>
+      </ed-select>
+    </div>
+
+    <!-- <ed-button>hello</ed-button>
     <ed-pie :dataSeries="dataSeries" :dataLegend="dataLegend" :colorData="colorData"></ed-pie>
     <div class="clampbox">
       <ed-clamp :max-lines="1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores aspernatur quam, illo tempora cupiditate eum eaque, aliquam totam magni culpa ducimus accusamus minima dolores tenetur quos. Voluptate, quod nobis! Reprehenderit.</ed-clamp>
@@ -36,22 +52,41 @@
       <ed-popover content="Top Left 提示文字">
         <i class="el-icon-delete"></i>
       </ed-popover>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
-import PageDemo1 from "../examples/page_demo1"
+// import PageDemo1 from "../examples/page_demo1"
+import BaseInput from "./base-input"
 export default {
   name: 'HelloWorld',
   components: {
-    PageDemo1
+    // PageDemo1,
+    BaseInput
   },
   props: {
     msg: String
   },
   data() {
     return {
+      options: [{
+        value: '选项1',
+        label: '黄金糕'
+      }, {
+        value: '选项2',
+        label: '双皮奶'
+      }, {
+        value: '选项3',
+        label: '蚵仔煎'
+      }, {
+        value: '选项4',
+        label: '龙须面'
+      }, {
+        value: '选项5',
+        label: '北京烤鸭'
+      }],
+      value: '',
       dataSeries: [
         { value: 335, name: '< 3 Months' },
         { value: 310, name: '3-5 Months' },
@@ -77,7 +112,19 @@ export default {
         yData: [[20000, 11500, 24321, 13000, 25000, 1200], [9456, 21345, 12345, 39876, 5678, 34000]]
       }
     }
-  }
+  },
+  methods: {
+    onClick(e) {
+      console.log(e.target)
+      console.log(e.currentTarget)
+    },
+    onFocus() {
+      console.log('onFocus')
+    },
+    changeValue(val) {
+      console.log(val)
+    }
+  },
 }
 </script>
 
@@ -103,5 +150,8 @@ a {
 
 .tooltip {
   height: 100px;
+}
+.test-select {
+  width: 300px;
 }
 </style>
