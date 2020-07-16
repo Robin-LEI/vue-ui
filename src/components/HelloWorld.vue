@@ -16,6 +16,9 @@
       </ed-select>
     </div>
 
+    <ed-radio v-model="radio" label="1">备选项1</ed-radio>
+    <ed-radio v-model="radio" label="2">备选项2</ed-radio>
+
     <!-- <ed-button>hello</ed-button>
     <ed-pie :dataSeries="dataSeries" :dataLegend="dataLegend" :colorData="colorData"></ed-pie>
     <div class="clampbox">
@@ -70,6 +73,7 @@ export default {
   },
   data() {
     return {
+      radio: '1',
       options: [{
         value: '选项1',
         label: '黄金糕'

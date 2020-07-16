@@ -14,6 +14,7 @@ import EdPagination from "../../../src/components/ed-pagination/index.js"
 import EdHeaderTitle from "../../../src/components/ed-header-title/index.js"
 import EdPopover from "../../../src/components/ed-popover/index.js"
 import EdSelect from "../../../src/components/ed-select/index.js"
+import EdRadio from "../../../src/components/ed-radio/index.js"
 
 Vue.component(EdButton.name, EdButton)
 Vue.component(EdPie.name, EdPie)
@@ -30,6 +31,7 @@ Vue.use(EdPagination)
 Vue.use(EdHeaderTitle)
 Vue.use(EdPopover)
 Vue.use(EdSelect)
+Vue.use(EdRadio)
 export default ({
     Vue
 }) => {
