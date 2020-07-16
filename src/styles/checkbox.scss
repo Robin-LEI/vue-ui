@@ -1,0 +1,43 @@
+//chexbox样式
+.ed-checkbox {
+    color: #333;
+    .el-checkbox__label {
+        font-size: 13px;
+    }
+  .el-checkbox__input{
+      .el-checkbox__inner {
+          width: 16px !important;
+          height: 16px !important;
+          border: 0 !important;
+          background-size: 16px 16px !important;
+          background-color: rgba($color: #fff, $alpha: 0) !important;
+          background-image: url(../assets/images/component/unchecked.png) !important;
+          &::after {
+          border-width: 0 !important;
+          width: 0;
+          height: 0;
+          }
+      }
+      &.is-checked .el-checkbox__inner {
+          background-color: rgba($color: #fff, $alpha: 0) !important;
+          background-size: 16px 16px !important;
+          background-image: url(../assets/images/component/checked.png) !important;
+          &::after {
+          border-width: 0 !important;
+          width: 0;
+          height: 0;
+          }
+      }
+      &.is-disabled:not(.is-checked) {
+          .el-checkbox__inner {
+              border-radius: 3px;
+              background-image: none !important;
+              background-color: #f6f6f6 !important;
+              border: 1px solid #979797 !important;
+          }
+      }
+  }
+  .el-checkbox__label {
+      padding-left: 4px !important;
+  } 
+}
