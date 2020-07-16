@@ -21,6 +21,10 @@
 
     <ed-checkbox v-model="checked">备选项</ed-checkbox>
 
+    <br>
+    <br>
+    <ed-input v-model="input" placeholder="hello"></ed-input>
+
     <!-- <ed-button>hello</ed-button>
     <ed-pie :dataSeries="dataSeries" :dataLegend="dataLegend" :colorData="colorData"></ed-pie>
     <div class="clampbox">
@@ -75,6 +79,7 @@ export default {
   },
   data() {
     return {
+      input: "",
       checked: true,
       radio: '1',
       options: [{

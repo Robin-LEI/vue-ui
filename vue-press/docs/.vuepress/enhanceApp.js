@@ -16,6 +16,7 @@ import EdPopover from "../../../src/components/ed-popover/index.js"
 import EdSelect from "../../../src/components/ed-select/index.js"
 import EdRadio from "../../../src/components/ed-radio/index.js"
 import EdCheckbox from "../../../src/components/ed-checkbox/index.js"
+import EdInput from "../../../src/components/ed-input/index.js"
 
 Vue.component(EdButton.name, EdButton)
 Vue.component(EdPie.name, EdPie)
@@ -34,6 +35,8 @@ Vue.use(EdPopover)
 Vue.use(EdSelect)
 Vue.use(EdRadio)
 Vue.use(EdCheckbox)
+Vue.use(EdInput)
+
 export default ({
     Vue
 }) => {
