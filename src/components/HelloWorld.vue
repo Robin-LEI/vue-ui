@@ -31,6 +31,16 @@
       :total='100'
   ></ed-pagination>
 
+  <br>
+  <br>
+
+  <ed-tabs v-model="activeName" @tab-click="handleClick">
+    <el-tab-pane label="用户管理" name="first">用户管理</el-tab-pane>
+    <el-tab-pane label="配置管理" name="second">配置管理</el-tab-pane>
+    <el-tab-pane label="角色管理" name="third">角色管理</el-tab-pane>
+    <el-tab-pane label="定时任务补偿" name="fourth">定时任务补偿</el-tab-pane>
+  </ed-tabs>
+
     <!-- <ed-button>hello</ed-button>
     <ed-pie :dataSeries="dataSeries" :dataLegend="dataLegend" :colorData="colorData"></ed-pie>
     <div class="clampbox">
@@ -85,6 +95,7 @@ export default {
   },
   data() {
     return {
+      activeName: 'second',
       input: "",
       checked: true,
       radio: '1',
@@ -141,7 +152,10 @@ export default {
     },
     changeValue(val) {
       console.log(val)
-    }
+    },
+    handleClick(tab, event) {
+        console.log(tab, event);
+      }
   },
 }
 </script>

@@ -10,5 +10,6 @@
 
 ### stylus中引入静态资源
 ```stylus
+<!-- 静态资源需要存放在public目录下 -->
 background-image: url("/checked.png") !important;
 ```

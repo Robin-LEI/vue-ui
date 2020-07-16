@@ -19,6 +19,7 @@ import EdSelect from "@/components/ed-select/index.js";
 import EdRadio from "@/components/ed-radio/index.js";
 import EdCheckbox from "@/components/ed-checkbox/index.js";
 import EdInput from "@/components/ed-input/index.js";
+import EdTabs from "@/components/ed-tabs/index.js";
 
 Vue.config.productionTip = false
 
@@ -37,6 +38,7 @@ Vue.use(EdSelect);
 Vue.use(EdRadio);
 Vue.use(EdCheckbox);
 Vue.use(EdInput);
+Vue.use(EdTabs);
 
 Vue.use(ElementUI);
 
