@@ -100,10 +100,13 @@ $primary: #2777FF;
     }
     &.is-login {
       width:360px;
-      height:50px;
+      height:50px !important;
       background:rgba(39,119,255,1);
       box-shadow:0px 5px 10px -3px rgba(12,47,105,1);
       border-radius:10px;
+      font-size: 20px;
+      font-weight: bold;
+      color:rgba(225,249,254,1);
     }
     //小号button
     &.el-button--small {
