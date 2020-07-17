@@ -23,6 +23,7 @@ import EdTabs from "@/components/ed-tabs/index.js";
 import EdSearch from "@/components/ed-search/index.js";
 import EdDropdown from "@/components/ed-dropdown/index.js";
 import EdTag from "@/components/ed-tag/index.js";
+import EdForm from "@/components/ed-form/index.js";
 
 Vue.config.productionTip = false
 
@@ -44,6 +45,7 @@ Vue.use(EdInput);
 Vue.use(EdTabs);
 Vue.use(EdDropdown);
 Vue.use(EdTag);
+Vue.use(EdForm);
 // 自定义组件
 Vue.use(EdSearch);
 

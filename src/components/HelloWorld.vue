@@ -1,20 +1,16 @@
 <template>
   <div>
-    <ed-tag size="small">1hdshadwqhfjfwk dshwjhwhdjsjjhu</ed-tag>
-    <ed-tag size="small">Female</ed-tag>
-    <ed-tag dashed>Female hello world</ed-tag>
-    <ed-tag>Female hello world</ed-tag>
-    <ed-tag size="medium">
-      Female hello world you me
-      <i class="el-icon-plus" slot="plus"></i>
-      <i class="el-icon-close" slot="close"></i>
-    </ed-tag>
+    <myform></myform>
   </div>
 </template>
 
 <script>
+import myform from "../examples/ed-form"
 export default {
   name: 'HelloWorld',
+  components: {
+    myform
+  },
   props: {
     msg: String
   },
