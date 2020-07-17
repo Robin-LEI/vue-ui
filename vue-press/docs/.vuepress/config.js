@@ -28,8 +28,8 @@ module.exports = {
               children: [
                   ['/doc/button.md', '按钮Button'],
                   ['/doc/clamp.md', "数据截取Clamp"],
-                  ['/doc/ed-header-title.md', "模块标题EdHeaderTitle"],
-                  ['/doc/ed-popover.md', "文字提示EdPopover"]
+                  ['/doc/ed-header-title.md', "模块标题HeaderTitle"],
+                  ['/doc/ed-popover.md', "文字提示Popover"]
               ]
           },
           {
@@ -50,8 +50,9 @@ module.exports = {
           {
               title: "数据",
               children: [
-                  ['/doc/table.md', "表格"],
-                  ['/doc/pagination.md', "分页"]
+                  ['/doc/table.md', "表格Table"],
+                  ['/doc/pagination.md', "分页Pagination"],
+                  ['/doc/tag.md', "标签Tag"]
               ]
           },
           {
@@ -80,7 +81,13 @@ module.exports = {
             title: "其它相关",
             children: [
                 ['/doc/carousel.md', "Carousel走马灯"],
-                ['/doc/scrollbar.md', "滚动条EdScrollbar"]
+                ['/doc/scrollbar.md', "滚动条Scrollbar"]
+            ]
+          },
+          {
+            title: "自定义组件",
+            children: [
+                ['/doc/custom-search.md', "搜索Search"],
             ]
           },
           {

@@ -18,6 +18,7 @@ import EdRadio from "../../../src/components/ed-radio/index.js"
 import EdCheckbox from "../../../src/components/ed-checkbox/index.js"
 import EdInput from "../../../src/components/ed-input/index.js"
 import EdTabs from "../../../src/components/ed-tabs/index.js"
+import EdSearch from "../../../src/components/ed-search/index.js"
 
 Vue.component(EdButton.name, EdButton)
 Vue.component(EdPie.name, EdPie)
@@ -38,6 +39,7 @@ Vue.use(EdRadio)
 Vue.use(EdCheckbox)
 Vue.use(EdInput)
 Vue.use(EdTabs)
+Vue.use(EdSearch)
 
 export default ({
     Vue
