@@ -21,6 +21,8 @@ import EdCheckbox from "@/components/ed-checkbox/index.js";
 import EdInput from "@/components/ed-input/index.js";
 import EdTabs from "@/components/ed-tabs/index.js";
 import EdSearch from "@/components/ed-search/index.js";
+import EdDropdown from "@/components/ed-dropdown/index.js";
+import EdTag from "@/components/ed-tag/index.js";
 
 Vue.config.productionTip = false
 
@@ -40,6 +42,8 @@ Vue.use(EdRadio);
 Vue.use(EdCheckbox);
 Vue.use(EdInput);
 Vue.use(EdTabs);
+Vue.use(EdDropdown);
+Vue.use(EdTag);
 // 自定义组件
 Vue.use(EdSearch);
 

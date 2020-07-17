@@ -1,39 +1,28 @@
 <template>
   <div>
-    <search>
-    </search>
+    <ed-tag size="small">1hdshadwqhfjfwk dshwjhwhdjsjjhu</ed-tag>
+    <ed-tag size="small">Female</ed-tag>
+    <ed-tag dashed>Female hello world</ed-tag>
+    <ed-tag>Female hello world</ed-tag>
+    <ed-tag size="medium">
+      Female hello world you me
+      <i class="el-icon-plus" slot="plus"></i>
+      <i class="el-icon-close" slot="close"></i>
+    </ed-tag>
   </div>
 </template>
 
 <script>
-import Search from "../examples/ed-search"
 export default {
   name: 'HelloWorld',
-  components: {
-    Search
-  },
   props: {
     msg: String
   },
   data() {
     return {
-
     }
   },
   methods: {
-    onClick(e) {
-      console.log(e.target)
-      console.log(e.currentTarget)
-    },
-    onFocus() {
-      console.log('onFocus')
-    },
-    changeValue(val) {
-      console.log(val)
-    },
-    handleClick(tab, event) {
-        console.log(tab, event);
-      }
   },
 }
 </script>
@@ -45,23 +34,7 @@ h3 {
 }
 ul {
   list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-.clampbox {
-  width: 300px;
+  /* padding: 0; */
 }
 
-.tooltip {
-  height: 100px;
-}
-.test-select {
-  width: 300px;
-}
 </style>

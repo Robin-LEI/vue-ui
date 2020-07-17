@@ -19,6 +19,8 @@ import EdCheckbox from "../../../src/components/ed-checkbox/index.js"
 import EdInput from "../../../src/components/ed-input/index.js"
 import EdTabs from "../../../src/components/ed-tabs/index.js"
 import EdSearch from "../../../src/components/ed-search/index.js"
+import EdDropdown from "../../../src/components/ed-dropdown/index.js"
+import EdTag from "../../../src/components/ed-tag/index.js"
 
 Vue.component(EdButton.name, EdButton)
 Vue.component(EdPie.name, EdPie)
@@ -40,6 +42,8 @@ Vue.use(EdCheckbox)
 Vue.use(EdInput)
 Vue.use(EdTabs)
 Vue.use(EdSearch)
+Vue.use(EdDropdown)
+Vue.use(EdTag)
 
 export default ({
     Vue
