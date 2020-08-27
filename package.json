@@ -1,8 +1,11 @@
 {
-    "name": "xxx",
-    "version": "0.1.0",
+    "name": "mylwwui",
+    "version": "0.1.5",
     "private": false,
+    "main": "./src/components/index.js",
+    "files": ["dist/*", "src/*"],
     "scripts": {
+        "lib": "vue-cli-service build --target lib --name kui --dest lib ./src/components/index.js",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",

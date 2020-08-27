@@ -29,7 +29,8 @@ module.exports = {
                   ['/doc/button.md', '按钮Button'],
                   ['/doc/clamp.md', "数据截取Clamp"],
                   ['/doc/ed-header-title.md', "模块标题HeaderTitle"],
-                  ['/doc/ed-popover.md', "文字提示Popover"]
+                  ['/doc/ed-popover.md', "文字提示Popover"],
+                  ['/doc/ed-icon.md', '图标Icon']
               ]
           },
           {

@@ -24,3 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 npm i element-ui echarts xxx-ui
+
+
+入口文件：
+src/components/index.js

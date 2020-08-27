@@ -1,6 +1,9 @@
 import Vue from 'vue';
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import "../../../src/assets/fonts/iconfont.js";
+import "../../../src/assets/fonts/iconfont.css";
+
 import EdButton from "../../../src/components/ed-button/ed-button.vue"
 import EdPie from "../../../src/components/ed-pie/ed-pie.vue"
 import EdBar from "../../../src/components/ed-bar/ed-bar.vue"
@@ -21,6 +24,7 @@ import EdTabs from "../../../src/components/ed-tabs/index.js"
 import EdSearch from "../../../src/components/ed-search/index.js"
 import EdDropdown from "../../../src/components/ed-dropdown/index.js"
 import EdTag from "../../../src/components/ed-tag/index.js"
+import EdIcon from "../../../src/components/ed-icon/index.js"
 
 Vue.component(EdButton.name, EdButton)
 Vue.component(EdPie.name, EdPie)
@@ -44,6 +48,7 @@ Vue.use(EdTabs)
 Vue.use(EdSearch)
 Vue.use(EdDropdown)
 Vue.use(EdTag)
+Vue.use(EdIcon)
 
 export default ({
     Vue
